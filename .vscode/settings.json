@@ -51,5 +51,17 @@
 
   // Salvar automaticamente
   "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 1000
+  "files.autoSaveDelay": 1000,
+
+  // Tamanho da Tela
+  "window.zoomLevel": -1.5,
+
+  // Minimapa
+  "editor.minimap.enabled": false,
+
+  // Tamanho da fonte do editor
+  "editor.fontSize": 17,
+
+  // Tamanho da fonte do terminal
+  "terminal.integrated.fontSize": 17
 }
