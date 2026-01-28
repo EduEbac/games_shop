@@ -1,0 +1,55 @@
+{
+  // Formatação automática
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": false,
+
+  // Prettier como formatador padrão
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Configurações de identação
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+
+  // Prettier específico
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.singleQuote": false,
+  "prettier.semi": true,
+  "prettier.trailingComma": "all",
+
+  // Fim de linha (importante para consistência)
+  "files.eol": "\n",
+
+  // Remover espaços em branco no final das linhas
+  "files.trimTrailingWhitespace": true,
+
+  // Adicionar linha em branco no final do arquivo
+  "files.insertFinalNewline": true,
+
+  // Bracket colorization (colorir chaves/colchetes)
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+
+  // Indent guides (linhas de identação)
+  "editor.guides.indentation": true,
+
+  // HTML
+  "html.format.enable": true,
+  "html.format.wrapLineLength": 80,
+  "html.format.indentInnerHtml": true,
+
+  // Salvar automaticamente
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000
+}
